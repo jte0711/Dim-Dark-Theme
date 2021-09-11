@@ -222,18 +222,35 @@
     //   },
     {
       "name": "Function name",
-      // "scope": ["entity.name.function", "support.function"],
-      "scope": ["meta.function-call"],
+      "scope": ["meta.function-call", "entity.name.function"],
       "settings": {
         "foreground": "#566ab4"
       }
     },
     {
       "name": "Function argument",
-      "scope": "variable.parameter",
+      "scope": [
+        "variable.parameter",
+        "meta.object.member",
+        "variable.other.readwrite"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#D29779"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": ["punctuation"],
+      "settings": {
+        "foreground": "#bbbbbb"
+      }
+    },
+    {
+      "name": "Variable Other Object",
+      "scope": ["variable.other.object"],
+      "settings": {
+        "foreground": "#bbbbbb"
       }
     },
     //   {
@@ -270,7 +287,7 @@
     //   },
     {
       "name": "Tag attribute",
-      "scope": ["entity.other.attribute-name", "meta.object-literal.key.tsx"],
+      "scope": ["entity.other.attribute-name"],
       "settings": {
         "foreground": "#7db456"
       }
@@ -284,7 +301,7 @@
     //   },
     {
       "name": "Library class/type",
-      "scope": ["support.type"], //"support.variable"
+      "scope": ["support.type", "variable.other.property"], //"support.variable"
       "settings": {
         "foreground": "#4dc0cb"
       }
