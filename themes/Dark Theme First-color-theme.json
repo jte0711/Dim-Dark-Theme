@@ -1,3 +1,14 @@
+/*
+---------- Color choice ----------
+White: #EDEDED
+Black: #03071E, background (alternative);
+Black: #001219, background
+Red: #C44A4C
+Error Red: #E85D04
+Warning Yellow: #FFBA08
+Dimmed Orange: #D29779 , for parameter
+Light Orange: #EE9B00 , for parameter (alternative)
+*/
 {
   "name": "Dark Dimmed Theme",
   "type": "dark",
@@ -17,7 +28,7 @@
     // "scrollbarSlider.background": "#4e566680",
     // "scrollbarSlider.hoverBackground": "#5a637580",
     // "scrollbarSlider.activeBackground": "#747d9180",
-    // "editor.background": "#121212",
+    "editor.background": "#001219",
     // "editorWidget.background": "#181a1f",
     // "editor.selectionBackground": "#3e4451",
     // "editor.findMatchHighlightBackground": "#314365",
@@ -30,8 +41,8 @@
     // "editorIndentGuide.background": "#3b4048",
     // "editorLineNumber.foreground": "#495162",
     // "editorRuler.foreground": "#484848",
-    // "editorError.foreground": "#C35555",
-    // "editorWarning.foreground": "#C6bb39",
+    "editorError.foreground": "#E85D04",
+    "editorWarning.foreground": "#FFBA08"
     // "editorInfo.foreground": "#707040",
     // "editorSuggestWidget.background": "#181a1f",
     // "editorSuggestWidget.border": "#181a1f",
@@ -162,7 +173,7 @@
         "keyword.operator.constructor"
       ],
       "settings": {
-        "foreground": "#Ca4e4e"
+        "foreground": "#C44A4C"
       }
     },
     //   {
@@ -224,16 +235,12 @@
       "name": "Function name",
       "scope": ["meta.function-call", "entity.name.function"],
       "settings": {
-        "foreground": "#566ab4"
+        "foreground": "#4A9EC4"
       }
     },
     {
       "name": "Function argument",
-      "scope": [
-        "variable.parameter",
-        "meta.object.member",
-        "variable.other.readwrite"
-      ],
+      "scope": ["variable.parameter", "meta.object.member"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#D29779"
@@ -248,7 +255,7 @@
     },
     {
       "name": "Variable Other Object",
-      "scope": ["variable.other.object"],
+      "scope": ["variable.other.object", "variable.other"],
       "settings": {
         "foreground": "#bbbbbb"
       }
