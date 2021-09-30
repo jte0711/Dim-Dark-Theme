@@ -1,21 +1,26 @@
 {
-    "name": "dark-theme-first",
-    "displayName": "Dark Theme First",
-    "description": "It's a dark theme with a clear color for some important part of the code",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.60.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Dark Theme First",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Dark Theme First-color-theme.json"
-            }
-        ]
-    }
+  "name": "dark-theme-first",
+  "displayName": "Dark Theme First",
+  "description": "It's a dark theme with a clear color for some important part of the code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Theme First",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark Theme First-color-theme.json"
+      },
+      {
+        "label": "Dimmed Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dimmed-Dark-Theme.json"
+      }
+    ]
+  }
 }
