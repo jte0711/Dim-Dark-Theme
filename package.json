@@ -1,14 +1,19 @@
 {
   "name": "dark-theme-first",
   "displayName": "Dark Theme First",
-  "description": "It's a dark theme with a clear color for some important part of the code",
+  "description": "A collection of dark themes that made by me.",
   "version": "0.0.1",
+  "publisher": "jamestedy",
   "engines": {
     "vscode": "^1.60.0"
   },
   "categories": [
     "Themes"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jte0711/Dim-Dark-Theme"
+  },
   "contributes": {
     "themes": [
       {
