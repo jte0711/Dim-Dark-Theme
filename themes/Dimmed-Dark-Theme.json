@@ -71,7 +71,7 @@
       "name": "Embeded String",
       "scope": "string.embedded",
       "settings": {
-        "foreground": "#afeef6"
+        "foreground": "#8758bf"
       }
     },
     {
@@ -172,7 +172,7 @@
       "name": "Function name",
       "scope": ["entity.name.function", "support.function"],
       "settings": {
-        "foreground": "#afeef6"
+        "foreground": "#8758bf"
       }
     },
     {
@@ -194,7 +194,7 @@
       "name": "Builtin Functions",
       "scope": ["function.support.builtin", "function.support.core"],
       "settings": {
-        "foreground": "#afeef6"
+        "foreground": "#8758bf"
       }
     },
     {
@@ -219,7 +219,7 @@
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#afeef6"
+        "foreground": "#8758bf"
       }
     },
     {
@@ -264,7 +264,7 @@
         "support.constant.sass"
       ],
       "settings": {
-        "foreground": "#afeef6"
+        "foreground": "#8758bf"
       }
     },
     {
@@ -444,7 +444,7 @@
       "name": "Markdown: Quote",
       "scope": "markup.quote.markdown",
       "settings": {
-        "foreground": "#afeef6"
+        "foreground": "#8758bf"
       }
     },
     {
@@ -529,7 +529,7 @@
     "statusBar.foreground": "#ccd0d1e6",
     "statusBar.background": "#001219",
     "statusBarItem.hoverBackground": "#ffffff1f",
-    "statusBar.debuggingBackground": "#D26218",
+    "statusBar.debuggingBackground": "#008cc3",
     "statusBar.debuggingForeground": "#ffffff",
     "statusBar.noFolderBackground": "#001219",
     "statusBar.noFolderForeground": "#ccd0d1e6",
