@@ -2,7 +2,7 @@
   "name": "dark-theme-first",
   "displayName": "Dark Theme First",
   "description": "A collection of dark themes that made by me.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "jamestedy",
   "engines": {
     "vscode": "^1.60.0"
@@ -17,14 +17,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dimmed Dark Theme",
+        "label": "Dark Swamp Plus",
         "uiTheme": "vs-dark",
-        "path": "./themes/Dimmed-Dark-Theme.json"
+        "path": "./themes/Dark-Swamp-Plus.json"
       },
       {
-        "label": "Dimmed Dark Theme Original",
+        "label": "Dark Swamp",
         "uiTheme": "vs-dark",
-        "path": "./themes/Dimmed-Dark-Theme-Original.json"
+        "path": "./themes/Dark-Swamp.json"
       }
     ]
   }
