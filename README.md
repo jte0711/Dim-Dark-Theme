@@ -8,8 +8,14 @@ Collection of Dark Themes made by me.
 
 ## Themes
 
-### Dimmed Dark Theme
+### Dark Swamp
 
+This theme is made in [this website](https://themes.vscode.one/theme/jmstdy/DILJLuBt)
 ![Screenshot 1](./screenshots/ddt1.png)
 ![Screenshot 2](./screenshots/ddt2.png)
 ![Screenshot 3](./screenshots/ddt3.png)
+
+### Dark Swamp Plus
+
+This theme is based on Dark Swamp, but with different syntax color and made with React Native development experience in mind.
+![Dark Swamp Plus Screenshot](./screenshots/dsp.png)
