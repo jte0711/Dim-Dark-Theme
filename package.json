@@ -20,6 +20,11 @@
         "label": "Dimmed Dark Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Dimmed-Dark-Theme.json"
+      },
+      {
+        "label": "Dimmed Dark Theme Original",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dimmed-Dark-Theme-Original.json"
       }
     ]
   }
