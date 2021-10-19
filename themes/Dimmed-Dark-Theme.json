@@ -71,7 +71,7 @@
       "name": "Embeded String",
       "scope": "string.embedded",
       "settings": {
-        "foreground": "#8758bf"
+        "foreground": "#8cbec5"
       }
     },
     {
@@ -172,7 +172,7 @@
       "name": "Function name",
       "scope": ["entity.name.function", "support.function"],
       "settings": {
-        "foreground": "#8758bf"
+        "foreground": "#8cbec5"
       }
     },
     {
@@ -194,7 +194,7 @@
       "name": "Builtin Functions",
       "scope": ["function.support.builtin", "function.support.core"],
       "settings": {
-        "foreground": "#8758bf"
+        "foreground": "#8cbec5"
       }
     },
     {
@@ -219,7 +219,7 @@
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#8758bf"
+        "foreground": "#8cbec5"
       }
     },
     {
@@ -264,7 +264,7 @@
         "support.constant.sass"
       ],
       "settings": {
-        "foreground": "#8758bf"
+        "foreground": "#8cbec5"
       }
     },
     {
@@ -444,7 +444,7 @@
       "name": "Markdown: Quote",
       "scope": "markup.quote.markdown",
       "settings": {
-        "foreground": "#8758bf"
+        "foreground": "#8cbec5"
       }
     },
     {
