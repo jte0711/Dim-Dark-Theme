@@ -6,6 +6,18 @@
 
 Collection of Dark Themes made by me.
 
+## Installation
+
+- Press `ctrl/command + p` to launch the command palette, then run:
+
+  `ext install jamestedy.dark-theme-first`
+
+- OR Run this command in the terminal:
+
+  `code --install-extension jamestedy.dark-theme-first`
+
+- OR go to Extensions in Visual Studio Code then search for `jamestedy.dark-theme-first` and click `install`
+
 ## Themes
 
 ### Dark Swamp
