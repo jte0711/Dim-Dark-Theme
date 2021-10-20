@@ -50,7 +50,7 @@
       "name": "TemplateString",
       "scope": "meta.template.expression.js",
       "settings": {
-        "foreground": "#abb2bf"
+        "foreground": "#c4c9d2"
       }
     },
     {
@@ -156,9 +156,13 @@
     },
     {
       "name": "Other variable",
-      "scope": ["variable.other.property", "variable.other.block"],
+      "scope": [
+        "variable.other",
+        "variable.other.property",
+        "variable.other.block"
+      ],
       "settings": {
-        "foreground": "#abb2bf"
+        "foreground": "#c4c9d2"
       }
     },
     {
@@ -187,7 +191,7 @@
       "name": "Function call",
       "scope": "entity.name.function-call",
       "settings": {
-        "foreground": "#abb2bf"
+        "foreground": "#c4c9d2"
       }
     },
     {
@@ -252,7 +256,7 @@
         "support.type.property-name.sass"
       ],
       "settings": {
-        "foreground": "#abb2bf"
+        "foreground": "#c4c9d2"
       }
     },
     {
@@ -457,7 +461,7 @@
     },
     {
       "name": "Markdown: Raw",
-      "scope": "markup.raw.inline.markdown, markup.raw.block.markdown",
+      "scope": "markup.inline.raw.string.markdown,markup.raw.inline.markdown, markup.raw.block.markdown",
       "settings": {
         "foreground": "#58a5bf"
       }
