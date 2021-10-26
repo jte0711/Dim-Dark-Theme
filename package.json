@@ -2,7 +2,7 @@
   "name": "dark-theme-first",
   "displayName": "Dark Theme First",
   "description": "A collection of dark themes that made by me.",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "publisher": "jamestedy",
   "engines": {
     "vscode": "^1.60.0"
